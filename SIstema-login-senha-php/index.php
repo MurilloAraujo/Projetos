@@ -1,7 +1,7 @@
 <?php
   if (isset($_REQUEST['acesso']) && $_REQUEST['acesso'] == true):
 
-       echo "fdfas";
+       echo "Logado";
 
   endif;
 ?>
