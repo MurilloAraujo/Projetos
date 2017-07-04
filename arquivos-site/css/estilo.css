@@ -1,0 +1,446 @@
+					* {	margin: 0;
+						padding: 0;
+						list-style: none;
+						border: none;
+					}
+					article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  						display: block;
+					}
+					body {
+						background: #a8c8ca url(../img/bg2.png);
+						font: 16px/16px Tahoma, Arial, sans-serif;
+						color: #444444;
+					}
+					.container {
+						margin: 0 auto;
+						width: 252px;
+						position: relative;
+						background: #ECE5CE url(../img/noise.png);
+						border-left: 1px solid #9d9b92;
+	  					border-right: 1px solid #9d9b92;
+					}
+
+					/* Aqui começa as regras para o topo do site */
+					#social-bar {
+
+						overflow: hidden;
+						position: relative;
+						background: url(../img/transparent-dark.png);
+						border-bottom: 1px solid #f4f3ea;
+						padding-top: 14px;
+						padding-bottom: 9px; 
+						
+					}
+					#social-bar ul {
+						width: 126px;
+						margin: 0 auto;
+					}
+					#social-bar li {
+						width: 32px;
+						margin: 0 5px;
+						float: left;
+					}
+					#social-bar a {
+						display: block;
+					}
+					nav {
+						background: url(../img/nav-top.png) repeat-x top left;
+						position: relative;
+						margin: 0 0 25px 0;
+						padding: 28px 0 20px;						 
+						border-bottom: 1px solid #9d9b92;
+						height: auto;
+  						overflow: hidden
+					}
+					#nav {
+						display: none;
+					}
+					#comboNav {
+						background-color: #9d9b92;	
+						width: 212px;
+						margin: 10px auto;
+						padding: 4px;
+						display: block; 
+						font-size: 16px;						  
+						color: #fff;
+						text-indent: 15px;
+						border-radius: 3px;
+					}
+					header #logo {
+						 margin: 20px 0 30px;
+					}
+					header #logo img {
+						display: block;
+						margin: 0 auto;
+						max-width: 80%;
+					}
+					#slogan {
+					  	position: relative;
+					}
+					#slogan .ribbon-right {
+						background: url(../img/ribbon-right.png) no-repeat;	
+						right: -56px;
+					}
+					#slogan .ribbon-left {
+						background: url(../img/ribbon-left.png) no-repeat;	
+						left: -56px;
+					}
+					#slogan .ribbon-left , #slogan .ribbon-right {
+						position: absolute;
+						width: 56px;
+						height: 92px;
+						top: -18px;
+					}
+					#slogan .ribbon {
+						background: #e37655;
+						min-height: 92px;
+						text-align: center;
+						padding: 0 2%;
+					}
+					#slogan h1 {
+						padding-top: 9%;
+						font: 400 20px/normal 'Josefin Sans', sans-serif;
+						color: #fff;
+						text-shadow: 0px 1px 0 #9d9b92;
+					}
+					.portfolio #slogan .ribbon {
+						margin-bottom: 5%;
+					}
+					/* Aqui começa as regras para o Co do site */
+					#main {
+						width: auto;
+						height: auto;
+					}
+					/* Aqui começa as regras para o rodapé do site */
+					.vcard {
+						background: #4d4d4d;
+  						position: relative;
+  						padding: 20px;  						
+						font-size: 14px;
+						color: #f1f1f1;
+						line-height: 20px;
+						clear: both;
+					}
+					.vcard h2 {
+						font: 400 18px/20px 'Josefin Sans', sans-serif;
+	  					margin-bottom: 20px;
+	  					padding-bottom: 15px;
+	  					border-bottom: 1px dotted #ffffff;	  					
+						text-align: center;
+  					}
+  					.vcard ul li {
+  						margin: 10px 0;
+  						text-align: center;
+  					}
+  					.vcard ul li a {
+  						text-decoration: none;
+  						color: #fdd600;
+  					}
+  					.vcard ul li a:hover {
+  						text-decoration: underline;
+  					}
+  					.vcard p {  						  
+						margin-top: 20px;
+						padding-top: 15px;
+						text-align: center;
+						border-top: 1px dotted #ffffff;
+  					}
+
+  					/* Aqui começa as regras para o conteúdo da página inicial */
+
+  					/* Aqui começa as regras para o slideshow */
+					.bx-wrapper {
+					  	margin: 0 auto 10px;
+					}
+					.bx-wrapper .bx-pager {
+					  	bottom: 0;
+					}
+					.bx-wrapper .bx-viewport {
+						border:none;
+						left:0;
+					}
+					.bx-wrapper .bx-prev {
+						background: url(../img/controls.png) no-repeat 0 -32px;
+					}
+					.bx-wrapper .bx-next {
+					  	background: url(../img/controls.png) no-repeat -43px -32px;
+					}
+					.bx-wrapper .bx-pager.bx-default-pager a {
+						background-color: #e37655;
+						width: 20px;
+					  	height: 20px;
+					  	border-radius: 12px;
+					  	border: 1px solid #ece9d6;
+					}
+					.bx-wrapper .bx-pager.bx-default-pager a.active {
+					  	background: #842f16;
+					}
+					.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto, 
+					.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+						display: none;
+					}
+					/* Aqui começa as regras para o subtítulo e galeria de imagens */
+					#main .headline {
+						background: url(../img/feature-line.png) top center no-repeat;
+						margin: 0 0 15px 0;
+						padding-top: 50px;
+						font: 400 16px/20px 'Josefin Sans', sans-serif;
+						color: #4d4d4d;
+						text-shadow: 0 1px 0 #9d9b92;
+						text-align: center;
+					}					
+					.feature {
+					  	background: url(../img/feature-line.png) top center no-repeat;
+					  	padding-top: 40px;
+					}
+					.feature li {
+					  	width: auto;
+					  	margin: 0 20px;
+					}
+					.feature li .thumb {
+						display: block;
+						line-height: 0;
+						position: relative;
+						color: #ece9d6;
+					    text-decoration: none;
+					}
+					.feature li .thumb img{
+					  	max-width: 100%;
+					  	box-shadow: 0px 0px 3px 0px #9d9b92; 
+					}
+					.feature li .thumb:hover img {
+					  	opacity: 0.5;
+					  	background: #000;
+					}					
+					.feature li .thumb .categoria {
+					  	position: relative;
+					  	bottom: 27px;
+					  	background: #e37655;
+					  	margin: 0 auto;
+					  	width: 120px;
+					  	height: 30px;
+					  	border-radius: 30px;
+					  	box-shadow: 3px 3px 0 0 #9d9b92;
+					  	font: 400 16px/34px 'Josefin Sans', sans-serif;
+					  	text-align: center;
+					}
+					.feature li .thumb .categoria span {
+					  	display: block;
+					  	margin-top: 12px;
+					}
+					.feature li .thumb .categoria .d {
+					  	margin-top: 0px;
+					}
+					.feature li .excerpt {
+					  	display: block;
+					  	font-size: 16px;
+					  	line-height: 20px;
+					  	color: #4d4d4d;
+					  	text-align: center;
+					  	text-decoration: none;
+					  	padding-bottom: 10px;
+					  	margin-bottom: 20px;
+					  	border-bottom: 1px solid #888888;
+					}
+					/* Aqui termina as regras para o conteúdo da página inicial */
+
+					/* Aqui começa as regras para o conteúdo da página de portfólio */					
+					.portfolio #main header {						
+					  	clear: both;
+					}
+					.portfolio #main .headline {
+						background: none;
+						margin: 0;
+					  	padding-top: 20px;
+					}
+					.portfolio .feature li {
+					  	margin: 0 20px 20px;
+					 }
+					/* Aqui começa as regras para visualização do popup */ 
+					.white-popup {
+						position: relative;  
+						background: #ECE5CE url(../img/noise.png);
+						border: 1px solid #9d9b92;
+						padding: 20px;
+						width: auto;
+						max-width: 900px;
+						margin: 20px auto;
+						color: #444444;
+					}
+					.white-popup h3 {
+						padding: 20px 0 30px;
+						font: 400 36px/30px 'Josefin Sans', sans-serif;
+					  	color: #4d4d4d;
+					  	text-shadow: 0 1px 0 #9d9b92;
+					 }
+
+					 .white-popup img {
+					 	max-width: 100%;
+					 	height: auto;
+					 	margin-top: 30px;
+					 	border: 1px solid #9d9b92;
+					}
+					.white-popup p {
+						font: 16px/20px Tahoma, Arial, sans-serif;
+					}
+					/* Aqui termina as regras para o conteúdo da página de portfólio */
+
+  					/* Aqui começa as consultas de mídias */
+  					@media only screen and (min-width: 480px) {
+  						.container{
+  							max-width: 980px; /* Esta a máxima largura que o site terá independente da resolução */	
+  							width: 93%;
+  						}
+  						#comboNav {
+  							width: 396px;
+  						}
+  						header #logo img {
+							max-width: 46%;
+						}
+						#slogan h1 {
+							padding-top: 4.5%;
+							font-size: 24px;
+  						} 
+  						.vcard {
+  							padding: 20px 30px;
+  							font-size: 16px;
+  						}
+  						.vcard h2 {
+  							margin-bottom: 0;
+  							font-size: 22px;
+  						}
+  						.vcard div {
+  							padding: 20px 0;
+  							letter-spacing: 1px;		
+  						}
+  						.vcard p {
+  							margin-top: 5px; 	
+  						}
+						 #main .headline {
+						 	margin: 0 20px 20px 20px;
+						  	font-size: 24px;
+						  	line-height: 30px;
+						}
+
+						.feature {
+						  	margin: 0 20px;
+						}
+
+						.portfolio #main .headline {
+						  	padding-top: 0;
+						}
+						.portfolio .feature li {
+						  	width: auto;
+						  	margin: 0 20px 40px;
+						}
+
+}
+  					@media only screen and (min-width: 767px) {
+  						#nav {
+							display: block;
+							position: relative;
+							text-align: center;
+						}
+						#nav  li {
+							display: inline-block;
+							position: relative;  
+							padding-left: 15px;
+							margin: 0 5px;
+							font-family: 'Josefin Sans';
+							font-size: 24px;  
+						}
+						#nav li:hover, #nav li.current-menu-item {
+						  	background: url(../img/current-menu-item.png) no-repeat 0 -37px;
+						}						
+						#nav li a {
+						    display: block;
+							line-height: 37px;
+							height: 37px;
+							color: #444444;
+							text-shadow: 0px 1px 0 #ffffff;
+							text-decoration: none;
+						  }
+						#nav li:hover a, #nav li.current-menu-item a {
+						  color: #fff;
+						  text-shadow: 0px 1px 0 #9d9b92;
+						}
+						#nav li span {
+  							padding-right: 15px;
+						}
+						#nav li:hover span, #nav li.current-menu-item span {
+							display: block;
+							background: url(../img/current-menu-item.png) no-repeat top right;
+						}
+						#comboNav {
+  							display: none;
+						}
+						header #logo img {
+							width: 246px;
+							height: 126px;
+						}	
+						#slogan h1 {
+							padding-top: 28px;
+							font-size: 34px;
+						}	
+						.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+							display: block;	
+						  	text-align: center;
+						  	width: 100%;
+						}
+						.bx-wrapper .bx-pager {
+						  	bottom: 20px;
+						}					
+						.vcard h2 {
+							width: 330px;
+							padding:  0;
+							font: 400 30px/40px 'Josefin Sans', sans-serif;
+  							text-align: left;  							
+  							text-transform: uppercase;
+							display: inline-block;
+							border:none;
+						}
+						.vcard div{
+							float: right;
+							width: 270px;
+							height: auto;
+							padding: 0;
+						}
+						.vcard ul li {
+						  	margin: 10px 0;
+						  	text-align: right;
+						}
+						.vcard p {
+							margin-top: 33px;
+						  	padding-top: 20px;
+						}
+						.feature li, .portfolio .feature li {
+						  	display: block;
+						  	float: left;
+						  	width: 30.3%;
+						  	margin: 0 1.5%;;
+						  	margin-bottom: 40px;
+						}
+}
+					@media only screen and (min-width: 991px) {
+						.container { 
+							width: 980px;
+						}
+						#slogan h1 {
+							font-size: 40px;
+  							padding-top: 24px;
+						}
+						#main .headline {
+						  	font-size: 36px;
+						  	line-height: 44px;
+						}
+						.feature {
+						  	margin: 0;
+						}
+						.feature li{
+						  	display: block;
+						  	float: left;
+						  	width: 300px;
+						 	margin: 0 0 40px 20px;
+						}
+
+}

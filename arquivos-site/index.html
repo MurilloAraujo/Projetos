@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <title>Galucho - Designer</title>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Sans:400,700" media="all">
+        <link rel="stylesheet" href="css/jquery.bxslider.css" media="all">			
+        <link rel="stylesheet" href="css/estilo.css" media="all">
+    </head>
+    <body>
+        <!-- Invólucro para abrigar os box internos -->
+
+        <div class="container">
+            <header>
+                <div id="social-bar">
+                    <ul>					
+                        <li class="facebook"><a href="#"><img src="img/facebook.png" width="32" height="32" alt="Facebook" title="Facebook"></a></li>
+                        <li class="googleplus"><a href="#"><img src="img/googleplus.png" width="32" height="32" alt="Google Plus" title="Google Plus"></a></li>
+                        <li class="twitter"><a href="#"><img src="img/twitter.png" width="32" height="32" alt="Twitter" title="Twitter"></a></li>
+                    </ul>
+                </div>
+                <nav>
+                    <ul id="nav">
+                        <li class="current-menu-item"><a href="index.html"><span>HOME</span></a></li>
+                        <li><a href="portfolio.html"><span>PORTFÓLIO</span></a></li>
+                        <li><a href="#contato"><span>CONTATO</span></a></li>
+                    </ul>
+                    <div id="combo-holder"></div>
+                </nav>
+                <div id="logo">
+                    <a href="index.html"><img src="img/logo.png" width="246" height="126" alt="Logo Galucho" title="Logo Galucho"></a>
+                </div>
+                <div id="slogan">
+                    <div class="ribbon-left"></div>
+                    <div class="ribbon">
+                        <h1>Meu nome é GALUCHO. Sou um DESIGNER.</h1>
+                    </div>
+                    <div class="ribbon-right"></div>
+                </div>
+            </header>
+
+            <!-- Área para conteúdo -->
+
+            <div id="main">
+
+
+                <aside>
+                    <ul class="bxslider">							
+                        <li><a href="portfolio.html#fotografia"><img src="img/slide-by-morgana-sessions.jpg" alt="By Morgana Sessions" /></a></li>
+                        <li><a href="portfolio.html#web-design"><img src="img/slide-david-arty-site.jpg" alt="David Arty site" /></a></li>				
+                        <li><a href="portfolio.html#grafico"><img src="img/slide-camiseta-chief.jpg" alt="Camiseta Chief" /></a></li>
+                    </ul>
+                </aside>
+                <header>
+                    <h2 class="headline">ESTRATÉGIA, CONCEPÇÃO E DESENVOLVIMENTO PARA ALCANÇARMOS SOLUÇÕES EFICAZES</h2>
+                </header>
+                <section>
+                    <ul class="feature">
+                        <li>
+                            <a href="portfolio.html#web-design" class="thumb">
+                                <img src="img/ag.jpg" alt="Web Design">
+                                <div class="categoria"><span class="m">WEB DESIGN</span></div>
+                            </a>
+                            <a href="portfolio.html#web-design"  class="excerpt">Planejamento e criação de layouts web, com foco em padrões web. Front-End.</a>
+                        </li>												
+                        <li>
+                            <a href="portfolio.html#grafico" class="thumb">
+                                <img src="img/ag.jpg" alt="Design Gráfico">
+                                <div class="categoria"><span class="m">GRÁFICO</span></div>
+                            </a>
+                            <a href="portfolio.html#grafico"  class="excerpt">Branding / Logo, sinalização, infográficos, propaganda, peças gráficas.</a>
+                        </li>												
+                        <li>
+                            <a href="portfolio.html#fotografia" class="thumb">
+                                <img src="img/ag.jpg" alt="Fotografia">
+                                <div class="categoria"><span class="m">FOTOGRAFIA</span></div>
+                            </a>
+                            <a href="portfolio.html#fotografia"  class="excerpt">Fotografia publicitária e editorial. Também da natureza e de paisagem.</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Fim da área para conteúdo -->
+
+            <footer class="vcard">
+                <h2 id="contato">Venha bater um papo com o <span class="fn">Galucho</span></h2>
+                <div>
+                    <ul>
+                        <li>Telefone fictício do Galucho:<br><a class="tel" href="tel:+551112345678">+55 11 1234-5678</a></li>
+                        <li>E-mail fictício do Galucho:<br><a class="email" href="mailto:contato@galucho.com.br">contato@galucho.com.br</a></li>
+                    </ul>	
+                </div>
+                <p>Copyright &copy; 2017 - Teste<br>Todos os Direitos Reservados</p>	
+            </footer>	
+        </div>	
+
+        <!-- Fim do invólucro -->	
+
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/combo-navi.js"></script>	
+        <script src="js/css3-mediaqueries.js"></script>
+        <script src="js/jquery.bxslider.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+                $('.bxslider').bxSlider({
+                    auto: true,
+                    autoControls: true
+                });
+            });
+        </script>			
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
